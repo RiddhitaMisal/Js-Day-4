@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript code to replace the function expressions with arrow functions </h1> 
+   
+
+<script>
+    function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  () => alert("You agreed."),
+  () => alert("You canceled the execution.")
+);
+   
+  
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
